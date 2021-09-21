@@ -265,3 +265,43 @@ body {
     display: block;
 }
 /* End about block */
+/* Start how-to block */
+.how-to {
+    background-image: url(../images/howto-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+
+.how-to__box {
+    text-align: center;
+}
+
+.how-to__box circle,
+.how-to__box text,
+.how-to__box foreignObject {
+    transition: all .5s;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.how-to__box g:hover circle {
+    r: 20px;
+    fill: #036cca;
+}
+
+.how-to__box g:hover text {
+    fill: #036cca;
+    font-size: 36px;
+}
+
+.how-to__box g:hover foreignObject {
+    color: #036cca;
+    font-size: 22px;
+}
+
+foreignObject {
+    text-align: left;
+}
+/* End how-to block */
